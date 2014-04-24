@@ -1,0 +1,106 @@
+/* TRIFORCE blog theme */
+/* assuming i can get the fucking font to work */
+
+@font-face
+	{
+	font-family: 'Triforce';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Triforce'), url('Triforce.woff') format('woff');
+	}
+	
+/* global */
+body
+	{
+	font-family: Calibri, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #fff;
+	background: #222;
+	}
+
+#wrapper
+	{
+	width: 1100px;
+	margin: 0 120px 0px 120px;
+	overflow: hidden;
+	}
+	
+/* Title */
+#title
+	{
+	font-family: 'Triforce', 'Times New Roman', Times, serif;
+	font-size: 55px;
+	color: #f00;
+	text-align: center;
+	}
+
+/* Left col */	
+#colLeft
+	{
+	float: left;
+	position: relative;
+	width: 220px;
+	background: #444;
+	margin: 0px 50px 0px 0px;
+	-webkit-border-radius: 8px;	
+	z-index: 0;
+	box-shadow: 5px 5px 2px #000;
+	}
+	
+#3forcenav
+	{
+	position: relative;
+	z-index: 1;
+	}
+	
+.vanish
+	{
+	opacity: 0;
+	-webkit-transition: opacity 1s;
+	transition: opacity 1s;
+	}
+	
+.vanish:hover
+	{
+	opacity: 1.0;
+	}
+	
+#description
+	{
+	float: left;
+	margin: 20px 10px 20px 10px;
+	}
+	
+#pages
+	{
+	margin: 10px 5px 10px 5px;
+	border-bottom: 1px solid white;
+	}
+	
+.page
+	{
+	text-align: center;
+	border-top: 1px solid white;
+	}
+	
+.page:hover
+	{
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
