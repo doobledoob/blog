@@ -40,9 +40,9 @@ body
 	float: left;
 	position: relative;
 	width: 220px;
-	background: #444;
+	background: #555;
 	margin: 0px 50px 0px 0px;
-	-webkit-border-radius: 8px;	
+	-webkit-border-radius: 13px;	
 	z-index: 0;
 	box-shadow: 5px 5px 2px #000;
 	}
